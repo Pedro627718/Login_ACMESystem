@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3dCmXitWz0qvmDtIhPaqpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="3472268c-8e08-4e59-8eae-153e6f1d8ba1" CvElementArea="1887, 20, 25, 24" CvType="CloseButton" DesignTimeRectangle="1871, 9, 58, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Fechar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Fechar' role='push button' automationid='' check:text='Fechar' /&gt;" Guid="b0d987ca-1c11-4637-bb9f-9b0c899d0616" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Log In - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3472268c-8e08-4e59-8eae-153e6f1d8ba1" CvTextArea="1769, 125, 142, 15" CvTextArgument="Todos OS marcadores" CvType="Text" DesignTimeRectangle="1731, 116, 188, 36" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Marcadores' role='tool bar' /&gt;&lt;ctrl name='Todos os marcadores' role='menu button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Marcadores' role='tool bar' /&gt;&lt;ctrl name='Todos os marcadores' role='menu button' automationid='' check:text='Todos os marcadores' /&gt;" Guid="c6d59c4f-909a-4a89-bc67-ce5b520df012" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd06c3735ed8bb2c3cdb5439d39c7b10.png" xmlns="">0idf7Y08JAE-72yEP_MzF2Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
