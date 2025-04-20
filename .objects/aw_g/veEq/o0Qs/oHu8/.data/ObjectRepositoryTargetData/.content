@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yHa9jzLGkUmJx580sLJpNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/home" CVScreenId="13778d81-9c70-4c2b-97c3-fa725a732214" CvTextArea="1609, 246, 63, 20" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1591, 225, 100, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' check:innerText='Log Out' /&gt;" Guid="95bfd5ab-cda7-4276-92bd-493b6ef0af71" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="13778d81-9c70-4c2b-97c3-fa725a732214" CvElementArea="332, 616, 256, 62" CvTextArea="407, 634, 129, 25" CvTextArgument="User options" CvType="Button" DesignTimeRectangle="334, 619, 1250, 57" FuzzySelectorArgument="&lt;webctrl parentid='dashmenu' tag='DIV' type='' class='dropdown' aaname='                                                               ' check:innerText='User options' /&gt;" Guid="0b61d795-c0c8-4e4e-95ff-9b5bbfebdedc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="89f19a0454a58e80204cc43b315f64d0.png" xmlns="">0cvJONA2zyUK4xJ4QiJirfA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

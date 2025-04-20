@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TttIvGTXZUCngGKJCWsrwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/home" CVScreenId="19adb89f-4549-4a90-8143-90330f62456d" CvTextArea="246, 342, 221, 37" CvType="AnyWordGroup" DesignTimeRectangle="247, 338, 1425, 61" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-header' /&gt;" Guid="a0df8e05-6e09-4d41-ba17-c0cf14565663" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="19adb89f-4549-4a90-8143-90330f62456d" CvTextArea="264, 436, 48, 16" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="266, 436, 46, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Home' href='https://acme-test.uipath.com/home' tag='A' type='' class='' check:innerText='Home' /&gt;" Guid="0494a6dc-c3bc-4b60-b012-5e1afd2c2e2c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="092890cc7e62d9a4ee0a74fae9bca027.png" xmlns="">0hDTq94-UTE-ygJAqc5HZzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

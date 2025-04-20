@@ -5,7 +5,8 @@
   "main": "Main.xaml",
   "dependencies": {
     "MultipleApps.Descriptors_ACME_Excel": "[1.0.1]",
-    "UiPath.System.Activities": "[25.2.4]"
+    "UiPath.System.Activities": "[25.2.4]",
+    "UiPath.Testing.Activities": "[24.10.4]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -40,7 +41,16 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "712dc507-0444-4a96-a545-851784371a3a",
+        "dataVariationFilePath": ".variations\\Dados_Teste_Folha1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "CasodeTeste.xaml"
+      }
+    ],
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
