@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Fecho_Ordenado_ACMESystem_________________" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Fecho_Ordenado_ACMESystem_________________" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -87,31 +87,31 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="540.0000000000001,1009.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence sap:VirtualizedContainerService.HintSize="544.8000000000001,666.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="516.8,986.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap:VirtualizedContainerService.HintSize="516.8,643.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ACME System 1 - Log In(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,903.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="45813cc1-47e9-418f-8e6d-7c217c1ac9b5" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome ACME System 1 - Log In(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.20000000000005,496.79999999999995" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="45813cc1-47e9-418f-8e6d-7c217c1ac9b5" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="449.6,623.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="449.6,280" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45813cc1-47e9-418f-8e6d-7c217c1ac9b5" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45813cc1-47e9-418f-8e6d-7c217c1ac9b5" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="acme-test.uipath.com" CVScreenId="5574723a-ff61-4669-a829-d91f11c0dabf" ContentHash="ewJuVISjikiYB_ZS54iBVg" CvTextArea="1607, 246, 65, 20" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1591, 225, 100, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' check:innerText='Log Out' /&gt;" Guid="aa1b4930-5a85-45d8-b4e3-3c16160f1697" InformativeScreenshot="3720cd9d61d9dd28daf5893049884c76.png" Reference="ZZyGlhN0gEqZYSQlPV1JGQ/5Eox85S7JEC6dNygFfAmDA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -132,28 +132,6 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'Fechar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45813cc1-47e9-418f-8e6d-7c217c1ac9b5" Version="V4">
-                <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="3472268c-8e08-4e59-8eae-153e6f1d8ba1" ContentHash="3dCmXitWz0qvmDtIhPaqpw" CvElementArea="1887, 20, 25, 24" CvType="CloseButton" DesignTimeRectangle="1871, 9, 58, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Fechar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Fechar' role='push button' automationid='' check:text='Fechar' /&gt;" Guid="b0d987ca-1c11-4637-bb9f-9b0c899d0616" InformativeScreenshot="fd06c3735ed8bb2c3cdb5439d39c7b10.png" Reference="ZZyGlhN0gEqZYSQlPV1JGQ/Ek8aWCX_bkunRp4Ys3w6hA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Log In - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                    <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="3472268c-8e08-4e59-8eae-153e6f1d8ba1" CvTextArea="1769, 125, 142, 15" CvTextArgument="Todos OS marcadores" CvType="Text" DesignTimeRectangle="1731, 116, 188, 36" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Marcadores' role='tool bar' /&gt;&lt;ctrl name='Todos os marcadores' role='menu button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Log In - Google Chrome' role='pane' /&gt;&lt;ctrl name='Marcadores' role='tool bar' /&gt;&lt;ctrl name='Todos os marcadores' role='menu button' automationid='' check:text='Todos os marcadores' /&gt;" Guid="c6d59c4f-909a-4a89-bc67-ce5b520df012" SearchSteps="Selector, FuzzySelector, CV" />
-                      </scg:List>
-                    </uix:TargetAnchorable.Anchors>
-                  </uix:TargetAnchorable>
-                </uix:NClick.Target>
-                <uix:NClick.VerifyOptions>
-                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionOptions.Retry>
-                    <uix:VerifyExecutionOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionOptions.Timeout>
-                  </uix:VerifyExecutionOptions>
-                </uix:NClick.VerifyOptions>
-              </uix:NClick>
-              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,110.4" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Projeto Guardado no Repositório com Sucesso!&quot;]" />
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
