@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rlhcCB4JIEC2N76peRPbBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/home" CVScreenId="09647b0b-3150-4e7a-8567-b246fe893ec6" CvTextArea="1609, 246, 63, 20" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1591, 225, 100, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' check:innerText='Log Out' /&gt;" Guid="9a63a5fc-2dd9-48be-8b40-8b105eb98843" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="09647b0b-3150-4e7a-8567-b246fe893ec6" CvTextArea="547, 522, 595, 48" CvTextArgument="da_videproject@yahoo.com" CvType="Text" DesignTimeRectangle="546, 518, 599, 51" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='da_videproject@yahoo.com' check:innerText='da_videproject@yahoo.com' /&gt;" Guid="13238f2d-c9c6-40d4-a5af-b1d4e0cfc054" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4eae9ac99cdb2f27148faeb0471ec562.png" xmlns="">0ikdSLh3RvkyxXSEHpwdb5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
